@@ -73,19 +73,13 @@ body {
     right: 5%;
     border-radius: 50%;
   }
-  
+
   #features {
-    padding: 7% 15% 9%; /* Do not use rem here */
-    position: relative;
-  }
-  
-  .feature-icon {
-    color: #ef8172;
-    padding: 1.5rem;
+    padding: 5rem 3rem;
   }
   
   .feature-icon:hover {
-    color: #ff4c68;
+    box-shadow: 2px 2px 4px black ;
   }
   
   .feature-title {
@@ -105,8 +99,7 @@ body {
     padding: 6% 18%;
   }
 
-  
-  
+
   .testimonial-text {
     font-size: 3rem;
   }
@@ -115,19 +108,6 @@ body {
     border-radius: 100%;
     width: 10%;
     padding: 2rem 0;
-  }
-  
-  #press {
-    background-color: #ef8172;
-  }
-  
-  .press-img {
-    width: 15%;
-    margin: 0 20px 50px;
-  }
-  
-  #pricing {
-    padding: 100px;
   }
   
   .card {
