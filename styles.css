@@ -169,11 +169,11 @@ body {
       margin: 1rem 0.2rem;
     }
   
-    .iphone-container {
+    .man-container {
       margin-top: 2rem;
     }
   
-    .iphone-img {
+    .man-img {
       transform: rotate(0);
       position: static;
     }
@@ -235,6 +235,6 @@ body {
     font-size: 2.3rem;
   }
   
-  /* .testimonial-backgr {
-    background-color: #00b4d8;
-  } */  
+ .anmol {
+  height: 100px;
+ }
