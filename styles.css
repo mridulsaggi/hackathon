@@ -1,25 +1,207 @@
 body {
-  background-color: #caf0f8;
+    font-family: 'Montserrat', sans-serif;    
+    text-align: center;
 }
+
+h1, h2, h3 {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 900;
+    line-height: 1.5;
+}
+
+p {
+    color: #8f8f8f;
+}
+
+.big-heading {
+    font-size: 2.5rem;
+}
+
+.section-heading {
+    font-size: 3rem;
+}
+
+.coloured-section {
+    background-color: #00B4D8;
+}
+
+.white-section {
+    background-color: #fff;
+}
+
+#title {
+    text-align: left;
+}
+
+.container-fluid {
+    padding: 3% 12% 9%;
+}
+
+.navbar {
+    padding-bottom: 4rem;
+}
+
+.navbar-brand {    
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 2.5rem;
+    font-weight: bolder;
+}
+
+.nav-item{
+    padding: 0 1rem;
+}
+
+.nav-link {
+    font-size: 1.2rem;
+    font-weight: lighter;
+}
+
+.download-button {
+    margin: 3rem 0.5rem;
+}
+
+.man-container {
+    position: relative;
+}
+
+.man-img {
+    width: 75%;
+    height: 75%;
+    position: absolute;
+    right: 5%;
+    border-radius: 100%;
+
+}
+
+#features{
+    padding: 7% 15% 9%;  /* Do not use rem here */
+    position: relative;
+}
+
+.feature-icon {
+    color: #ef8172;
+    padding: 1.5rem;
+}
+
+.feature-icon:hover {
+    color: #ff4c68;
+}
+
+.feature-title {
+    font-size: 1.5rem;
+}
+
+.feature-desc {
+    width: 80%;
+    margin: 0 auto;
+}
+
+#testimonials {
+    background-color: #ef8172;
+}
+
+.carousel-item {
+    padding: 6% 18%;
+}
+
+.testimonial-text {
+    font-size: 3rem;
+}
+
+.testimonial-image {
+    border-radius: 100%;
+    width: 10%;
+    padding: 2rem 0;
+}
+
+#press {
+    background-color: #ef8172;
+}
+
+.press-img {
+    width: 15%;
+    margin: 0 20px 50px;
+}
+
+#pricing {
+    padding: 100px;
+}
+
+.price-text {
+    font-size: 3rem;
+}
+
+.card {
+    margin: 15px 10px;
+}
+
+#cta {
+    padding: 7% 13%;
+}
+
+.outro {
+    font-size: 3rem;
+}
+
+.download-button2 {
+    margin: 5rem 0.5rem;
+}
+
+#footer {
+    padding: 5rem;
+}
+
+.footer-icons {
+    padding: 1rem;
+}
+
+@media (max-width: 992px) {
+    #title {
+        text-align: center;
+    }
+
+    .download-button, .download-button2 {
+        margin: 1rem 0.2rem;
+    }
+
+    .iphone-container {
+        margin-top: 2rem;
+    }
+
+    .iphone-img {
+        transform: rotate(0);
+        position: static
+    }
+
+    .testimonial-text {
+        font-size: 2rem;
+    }
+
+    .outro {
+        margin-bottom: 2rem;
+    }
+}
+
+/* Features */
 
 .first h2 {
-  font-family: "Pacifico", cursive;
-}
-
-.join-btn {
-  border-radius: 0;
-  margin: 1% 0.5%;
-}
-
-.first {
-  padding: 5%;
-}
-
-.ngo-class {
-  text-align: center;
-  padding: 0%;
-}
-
-.ngo-class h3 {
-  font-family: Georgia, "Times New Roman", Times, serif;
-}
+    font-family: "Pacifico", cursive;
+  }
+  
+  .join-btn {
+    border-radius: 0;
+    margin: 1% 0.5%;
+  }
+  
+  .first {
+    padding: 5%;
+  }
+  
+  .ngo-class {
+    text-align: center;
+    padding: 0%;
+  }
+  
+  .ngo-class h3 {
+    font-family: Georgia, "Times New Roman", Times, serif;
+  }
